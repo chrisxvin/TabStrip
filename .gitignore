@@ -1,0 +1,59 @@
+#
+# NOTE! Don't add files that are generated in specific
+# subdirectories here. Add them in the ".gitignore" file
+# in that subdirectory instead.
+#
+# NOTE! Please use 'git-ls-files -i --exclude-standard'
+# command after changing this file, to see if there are
+# any tracked files which get ignored after the change.
+
+#
+# Normal rules
+#
+.svn
+*~
+*.~*
+*.bak
+*.orig
+*.patch
+*.dgz
+*.log
+
+#
+# Git stuff
+#
+!.gitignore
+patches-*
+
+#
+# Binary stuff
+#
+bin
+dep
+lib
+obj
+*.exe
+*.dll
+*.bpl
+
+#
+# Other stuff
+#
+misc
+test
+*.cmd
+*.ini
+*.rar
+*.zip
+*.7z
+
+#
+# Visual Studio stuff
+#
+.vs
+*.suo
+*.pdb
+*.cache
+*.user
+packages
+
